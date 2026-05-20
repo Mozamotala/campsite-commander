@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ima51122026g1practicumST10515004">
         <activity
+            android:name=".page3"
+            android:exported="false" />
+        <activity
+            android:name=".page2"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
