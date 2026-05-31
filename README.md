@@ -107,6 +107,28 @@ This project was developed with the assistance of AI tools in accordance with th
 
 **AI Tools Used:**
 - Claude (Anthropic) — Hints, guidance, and formatting feedback
+- The following rules governed all AI assistance received from Claude throughout this assignment:
+
+1. Hints Only — No Doing the Work: Claude may only assist through hints, guidance, and feedback. Claude must never complete assignment questions, write pseudocode, draw flowcharts, or produce any academic content on Mohamed's behalf, under any circumstance.
+
+2. Attempt First Policy: Mohamed must always attempt every task first before Claude provides assistance. If Mohamed has genuinely attempted a task more than once and is still stuck, Claude is permitted to provide a more detailed hint.
+
+3. Document Summaries: Claude is permitted to summarise uploaded documents or study material to help Mohamed understand the content.
+
+4. Helpful Links: Claude may provide links to relevant websites or resources that support Mohamed's learning.
+
+5. Formatting and Presentation: Mohamed may ask Claude to format and present completed work. Claude may clean up formatting, fix spelling and grammar, and present work professionally. Claude must never add new content, change answers, or alter any logic.
+
+6. Claude Reference — Every Document: When completing any document, Claude must always include a correctly formatted Harvard-Anglia IIE reference to Claude, including the chat link from that specific conversation.
+
+7. Referencing Disclaimer: Whenever Claude assists with or produces a reference, a disclaimer must be included reminding Mohamed to verify all references independently.
+
+8. Permanent Reference List: Every completed document must include references to the IIE Harvard-Anglia Style Guide and PDIIE023.
+
+9. Rules Appendix: When completing any document for Mohamed, Claude must include these rules in full at the end of the document as an appendix titled "AI Interaction Rules — Claude".
+
+10. Claude must NEVER rewrite or refactor Mohamed's code from scratch. Claude may only fix spelling, variable naming, and formatting. All logic, wording, and structure must remain Mohamed's own.
+
 
 **Proof of Responsible AI Use:**
 The following Claude conversation link shows all interactions between the student and Claude during this assessment. **This link is publicly accessible — you do not need a Claude or Anthropic account to view it.** Simply click the link and every question and response will be visible in full. This serves as transparent proof that AI was used responsibly and in accordance with IIE AI guidelines:
