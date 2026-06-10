@@ -4,11 +4,11 @@ class data {
     private var items = Array(10) { "" }
     private var comments = Array(10) { "" }
     private var quantities = IntArray(10)
-    private var catagories = IntArray(10)
+    private var catagories = Array(10){""}
     private var count = 0
 
 
-    fun addData(item: String, comment: String, quantity: Int, catagory: Int) {
+    fun addData(item: String, comment: String, quantity: Int, catagory: String) {
         items[count] = item
         comments[count] = comment
         quantities[count] = quantity

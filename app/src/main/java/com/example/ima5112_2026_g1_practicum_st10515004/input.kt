@@ -56,13 +56,13 @@ class input : AppCompatActivity() {
                 comment.error = "Please enter a comment"
                 return@setOnClickListener
             }
-            
+
 
             processor.addData(
                 item.text.toString(),
                 comment.text.toString(),
                 quantity.selectedItem.toString().toInt(),
-                catagory.selectedItemPosition
+                catagory.selectedItem.toString()
             )
 
             item.text.clear()
