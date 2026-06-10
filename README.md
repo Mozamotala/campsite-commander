@@ -43,17 +43,20 @@ This app  allows the user to type the item,select a catogory , select the ammoun
 ## App Screens
 
 ### Screen 1 — Splash Screen
-app Photots/main page .png
+<img width="431" height="792" alt="main page " src="https://github.com/user-attachments/assets/a77e0dff-0a4b-41c4-89d5-f2c2c53400f8" />
+
 the is the main page or splash screen it displays the logo app Name and my name and  student num
 ---
 
 ### Screen 2 — Main Screen
-app Photots/inputpage.png
+<img width="480" height="795" alt="inputpage" src="https://github.com/user-attachments/assets/caf4dde9-c383-4c1d-9b76-91b802afb29b" />
+
 this is the input page it displays all the user input fields and has a clear button a add button and a next page button
 ---
 
 ### Screen 3 — Detailed View Screen
-app Photots/details page .png
+<img width="507" height="672" alt="details page " src="https://github.com/user-attachments/assets/b85d7c7e-6fba-459d-853a-16ee36972e13" />
+
 this is the details page it  displays all the details of  the user inputed data adn well as a message 
 
 ---
