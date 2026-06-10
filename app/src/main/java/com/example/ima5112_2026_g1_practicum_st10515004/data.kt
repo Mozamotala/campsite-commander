@@ -19,6 +19,13 @@ class data {
     fun getCount(): Int {
         return count
     }
+    fun getTotal(): Int {
+        var total = 0
+        for (i in 0 until count) {
+            total += quantities[i]
+        }
+        return total
+    }
 
     fun getData(): String {
         var data = ""

@@ -32,7 +32,8 @@
         app:layout_constraintHorizontal_bias="0.155"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.808" />
+        app:layout_constraintVertical_bias="0.808"
+        android:backgroundTint="#FF0000"/>
 
     <Button
         android:id="@+id/Exit"
@@ -44,7 +45,8 @@
         app:layout_constraintHorizontal_bias="0.813"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.808" />
+        app:layout_constraintVertical_bias="0.808"
+        android:backgroundTint="#D17A00"/>
 
     <ImageView
         android:id="@+id/imageView"

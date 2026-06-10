@@ -35,13 +35,13 @@ class input : AppCompatActivity() {
         var Nextpage = findViewById<Button>(R.id.Nextpage)
         var clear = findViewById<Button>(R.id.clear)
 
-        var quantitys = arrayOf("0", "1", "2", "3", "4", "5")
+        var quantitys = arrayOf("1", "2", "3", "4", "5")
         // Using custom layout spinner_item for white text
         quantity.adapter = ArrayAdapter(this, R.layout.spinner_item, quantitys).apply {
             setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         }
 
-        var catagories = arrayOf("food", "water", "shelter")
+        var catagories = arrayOf("food", "water", "shelter","first aid","toiletries","clothing")
         // Using custom layout spinner_item for white text
         catagory.adapter = ArrayAdapter(this, R.layout.spinner_item, catagories).apply {
             setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)

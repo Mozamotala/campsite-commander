@@ -22,13 +22,33 @@ class Detailspage : AppCompatActivity() {
         }
         val MainScreenBtn = findViewById<Button>(R.id.MainScreenBtn)
         val answers = findViewById<TextView>(R.id.Answers)
+        val Exit = findViewById<Button>(R.id.Exit)
 
+
+        Exit.setOnClickListener {
+            moveTaskToBack(true)
+            finish()
+        }
 
         MainScreenBtn.setOnClickListener {
             startActivity(android.content.Intent(this, MainActivity::class.java))
         }
 
 
-        answers.text = input.processor.getData()
+        answers.text = input.processor.getData() + "\n" +
+                "Total Quantity: " + input.processor.getTotal()
+        if (input.processor.getCount() <= 2) {
+            answers.text = answers.text.toString() + "\n" +
+                    "you shoud add more items be prepared "
+
+        }
+        if (input.processor.getCount() <= 5) {
+            answers.text = answers.text.toString() + "\n" +
+                    "are you sure thats enough items rather more than not enough"
+        }
+        if (input.processor.getCount() == 10) {
+            answers.text = answers.text.toString() + "\n" +
+                    "you are well prepared "
+        }
     }
-    }
+}
