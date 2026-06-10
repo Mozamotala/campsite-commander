@@ -1,6 +1,10 @@
+//Mohamed Zaeem Motala
+//St10515004
 package com.example.ima5112_2026_g1_practicum_st10515004
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -15,6 +19,18 @@ class MainActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+        }
+        val startButton = findViewById<Button>(R.id.Start)
+        val exitButton = findViewById<Button>(R.id.Exit)
+
+
+        startButton.setOnClickListener {
+            val intent = Intent(this, input::class.java)
+            startActivity(intent)
+        }
+        exitButton.setOnClickListener {
+            moveTaskToBack(true)
+            finish()
         }
     }
 }

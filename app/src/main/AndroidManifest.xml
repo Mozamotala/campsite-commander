@@ -15,7 +15,7 @@
             android:name=".page3"
             android:exported="false" />
         <activity
-            android:name=".page2"
+            android:name=".input"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
