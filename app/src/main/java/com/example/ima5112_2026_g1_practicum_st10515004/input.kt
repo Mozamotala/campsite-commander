@@ -30,11 +30,13 @@ class input : AppCompatActivity() {
         var quantity = findViewById<Spinner>(R.id.quantity)
         var catagory = findViewById<Spinner>(R.id.catagory)
         var Addgear = findViewById<Button>(R.id.Addgear)
+        var Nextpage = findViewById<Button>(R.id.Nextpage)
+        var clear = findViewById<Button>(R.id.clear)
 
-        var quantitys = arrayOf("1","2","3","4","5")
+        var quantitys = arrayOf("0","1","2","3","4","5")
         quantity.adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, quantitys)
 
-        var catagories = arrayOf("shelter","food","water","shelter")
+        var catagories = arrayOf("food","water","shelter")
         catagory.adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, catagories)
 
         Addgear.setOnClickListener {
@@ -53,8 +55,19 @@ class input : AppCompatActivity() {
             quantity.setSelection(0)
             catagory.setSelection(0)
 
-            if (processor.getCount() >=2) {
+            if (processor.getCount() >=2) { // pls dont  forget t change this this  is only for testing
+
             }
+            }
+        Nextpage.setOnClickListener {
+            startActivity(android.content.Intent(this, Detailspage::class.java))
+
+        }
+        clear.setOnClickListener {
+            item.text.clear()
+            comment.text.clear()
+            quantity.setSelection(0)
+            catagory.setSelection(0)
         }
     }
 

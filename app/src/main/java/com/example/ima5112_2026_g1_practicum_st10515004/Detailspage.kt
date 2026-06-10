@@ -3,6 +3,8 @@
 package com.example.ima5112_2026_g1_practicum_st10515004
 
 import android.os.Bundle
+import android.widget.Button
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -18,5 +20,15 @@ class Detailspage : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        val MainScreenBtn = findViewById<Button>(R.id.MainScreenBtn)
+        val answers = findViewById<TextView>(R.id.Answers)
+
+
+        MainScreenBtn.setOnClickListener {
+            startActivity(android.content.Intent(this, MainActivity::class.java))
+        }
+
+
+        answers.text = input.processor.getData()
     }
-}
+    }

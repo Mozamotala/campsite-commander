@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ima51122026g1practicumST10515004">
         <activity
-            android:name=".`Details page`"
+            android:name=".Detailspage"
             android:exported="false" />
         <activity
             android:name=".input"
