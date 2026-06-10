@@ -42,11 +42,11 @@ class Detailspage : AppCompatActivity() {
                     "you shoud add more items be prepared "
 
         }
-        if (input.processor.getCount() <= 5) {
+        if (input.processor.getCount() >= 3 && input.processor.getCount() <= 5) {
             answers.text = answers.text.toString() + "\n" +
                     "are you sure thats enough items rather more than not enough"
         }
-        if (input.processor.getCount() == 10) {
+        if (input.processor.getCount() ==10) {
             answers.text = answers.text.toString() + "\n" +
                     "you are well prepared "
         }
