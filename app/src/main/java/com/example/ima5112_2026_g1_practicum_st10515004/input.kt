@@ -12,11 +12,13 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import android.util.Log
 
 class input : AppCompatActivity() {
     companion object {
         val processor = data()
     }
+    val tag = "inputActivity"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -51,10 +53,12 @@ class input : AppCompatActivity() {
             if (item.text.toString().isEmpty()) {
                 item.error = "Please enter an item"
                 return@setOnClickListener
+                Log.d(tag, "item is empty")
             }
             if (comment.text.toString().isEmpty()) {
                 comment.error = "Please enter a comment"
                 return@setOnClickListener
+                Log.d(tag, "comment is empty")
             }
 
 
@@ -63,7 +67,9 @@ class input : AppCompatActivity() {
                 comment.text.toString(),
                 quantity.selectedItem.toString().toInt(),
                 catagory.selectedItem.toString()
+
             )
+            Log.d(tag, "data added")
 
             item.text.clear()
             comment.text.clear()
@@ -78,6 +84,7 @@ class input : AppCompatActivity() {
                 ).show()
 
             }
+            Log.w(tag, "limit reached")
         }
         Nextpage.setOnClickListener {
             if (processor.getCount() == 0) {
@@ -87,6 +94,7 @@ class input : AppCompatActivity() {
                     android.widget.Toast.LENGTH_SHORT
                 ).show()
                 return@setOnClickListener
+                Log.w(tag, "no data entered")
             } else {
                 val intent = Intent(this, Detailspage::class.java)
                 startActivity(intent)
@@ -99,6 +107,7 @@ class input : AppCompatActivity() {
             comment.text.clear()
             quantity.setSelection(0)
             catagory.setSelection(0)
+            Log.d(tag, "data cleared")
         }
     }
 }
