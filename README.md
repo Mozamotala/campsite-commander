@@ -19,7 +19,7 @@
 
 [campsite commander ] is a mobile application developed as part of the IMAD5112 Practicum assessment at The Independent Institute of Education (IIE). This application was built using **Kotlin** in **Android Studio**.
 
-This app was built as a inventory app. this app cottects the users inputed data and recored it .
+This app was built as a inventory app. this app collects the users inputed data and recored it .
 This app  allows the user to type the item,select a catogory , select the ammount of  the item and add a discription of the item 
 
 ---
@@ -27,13 +27,13 @@ This app  allows the user to type the item,select a catogory , select the ammoun
 ## Purpose and Features
 
 ### Purpose:
-This app was built as a inventory app. this app cottects the users inputed data and recored it .
+This app was built as a inventory app. this app collects the users inputed data and recored it .
 This app  allows the user to type the item,select a catogory , select the ammount of  the item and add a discription of the item 
 
 ### Key Features:
-- it allows the user to input data usiing spinners and edit text fields 
-- onece all data has been entered weather that be a entry of  2 or 10 it will store it all allow you to procede to the next page 
-- once all data has been enterd it  will provide a detailed scree that will how all data enterd ,a total counter and a advice message 
+- it allows the user to input data using spinners and edit text fields 
+- onece all data has been entered weather that be a entry of  1 or 10 it will store it all allow you to procede to the next page 
+- once all data has been enterd it  will provide a detailed screen that will show all data enterd ,a total counter and a advice message 
 - Input validation and error handling
 - Navigation between screens using Intents
 - Data stored and managed using parallel arrays
@@ -46,6 +46,7 @@ This app  allows the user to type the item,select a catogory , select the ammoun
 <img width="431" height="792" alt="main page " src="https://github.com/user-attachments/assets/a77e0dff-0a4b-41c4-89d5-f2c2c53400f8" />
 
 the is the main page or splash screen it displays the logo app Name and my name and  student num
+this page contains an exit button as well as a next page button
 ---
 
 ### Screen 2 — Main Screen
@@ -58,6 +59,7 @@ this is the input page it displays all the user input fields and has a clear but
 <img width="507" height="672" alt="details page " src="https://github.com/user-attachments/assets/b85d7c7e-6fba-459d-853a-16ee36972e13" />
 
 this is the details page it  displays all the details of  the user inputed data adn well as a message 
+this screen also contailns an exit  button as well as a back to main screen button 
 
 ---
 
@@ -95,7 +97,8 @@ The workflow was configured using:
 
 ## Challenges Faced
 
-the main challage i faced was when i  was  trying to get the spinner text to become white.The text of  the spinner needed to be white due to the black?"Dark Mode" backround
+due to constistant practice the only real challage i faced was when i  was  trying to get the spinner text to become white.The text of  the spinner needed to be white due to the black?"Dark Mode" backround
+
 
 ---
 
