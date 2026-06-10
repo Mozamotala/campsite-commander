@@ -1,4 +1,4 @@
-# [APP NAME] 📱
+# [Campsite Commander] 📱
 
 - **Developer**: Mohamed Zaeem Motala
 - **Student Number**: ST10515004
@@ -10,28 +10,30 @@
 
 ## Links
 
-- **GitHub Repository**: [INSERT GITHUB LINK HERE]
-- **YouTube Video Demo**: [INSERT YOUTUBE LINK HERE]
+- **GitHub Repository**: [https://github.com/EMGPSD/ima5112-2026-g1-practicum-ST10515004]
+
 
 ---
 
 ## Project Overview
 
-[APP NAME] is a mobile application developed as part of the IMAD5112 Practicum assessment at The Independent Institute of Education (IIE). This application was built using **Kotlin** in **Android Studio**.
+[campsite commander ] is a mobile application developed as part of the IMAD5112 Practicum assessment at The Independent Institute of Education (IIE). This application was built using **Kotlin** in **Android Studio**.
 
-[WRITE 2–3 SENTENCES DESCRIBING WHAT YOUR APP DOES AND WHAT PROBLEM IT SOLVES]
+This app was built as a inventory app. this app cottects the users inputed data and recored it .
+This app  allows the user to type the item,select a catogory , select the ammount of  the item and add a discription of the item 
 
 ---
 
 ## Purpose and Features
 
 ### Purpose:
-[EXPLAIN WHY THIS APP WAS BUILT — WHAT USER PROBLEM DOES IT ADDRESS?]
+This app was built as a inventory app. this app cottects the users inputed data and recored it .
+This app  allows the user to type the item,select a catogory , select the ammount of  the item and add a discription of the item 
 
 ### Key Features:
-- [FEATURE 1]
-- [FEATURE 2]
-- [FEATURE 3]
+- it allows the user to input data usiing spinners and edit text fields 
+- onece all data has been entered weather that be a entry of  2 or 10 it will store it all allow you to procede to the next page 
+- once all data has been enterd it  will provide a detailed scree that will how all data enterd ,a total counter and a advice message 
 - Input validation and error handling
 - Navigation between screens using Intents
 - Data stored and managed using parallel arrays
@@ -41,7 +43,7 @@
 ## App Screens
 
 ### Screen 1 — Splash Screen
-[DESCRIBE WHAT THIS SCREEN SHOWS AND DOES]
+
 
 ---
 
