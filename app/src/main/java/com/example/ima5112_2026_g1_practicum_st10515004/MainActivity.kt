@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
 
 
         startButton.setOnClickListener {
-            // Adds a 3-second delay (3000ms) before transitioning to the next screen
+            // Adding a 3-second delay (3000ms) before transitioning to the next screen
             Handler(Looper.getMainLooper()).postDelayed({
                 val intent = Intent(this, input::class.java)
                 startActivity(intent)

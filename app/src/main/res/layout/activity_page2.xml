@@ -5,7 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".input">
+    tools:context=".input"
+    android:background="@color/black">
 
     <Button
         android:id="@+id/Nextpage"
@@ -44,6 +45,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.208"
+        android:textColor="@color/white"
+        android:hint="Item"
+        android:textColorHint="@color/white"
         />
 
     <EditText
@@ -57,7 +61,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/white"
+        android:hint="Comment"
+        android:textColorHint="@color/white"/>
 
     <Spinner
         android:id="@+id/quantity"
@@ -67,7 +74,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.404" />
+        app:layout_constraintVertical_bias="0.404"
+        android:hint="quantity"
+        android:textColorHint="@color/white"/>
 
     <Spinner
         android:id="@+id/catagory"
