@@ -29,7 +29,7 @@ class input : AppCompatActivity() {
         var comment = findViewById<EditText>(R.id.comment)
         var quantity = findViewById<Spinner>(R.id.quantity)
         var catagory = findViewById<Spinner>(R.id.catagory)
-        var next = findViewById<Button>(R.id.Next)
+        var Addgear = findViewById<Button>(R.id.Addgear)
 
         var quantitys = arrayOf("1","2","3","4","5")
         quantity.adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, quantitys)
@@ -37,7 +37,7 @@ class input : AppCompatActivity() {
         var catagories = arrayOf("shelter","food","water","shelter")
         catagory.adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, catagories)
 
-        next.setOnClickListener {
+        Addgear.setOnClickListener {
             if (item.text.toString().isEmpty()) {
                 item.error = "Please enter an item"
                 return@setOnClickListener
@@ -46,8 +46,15 @@ class input : AppCompatActivity() {
                 comment.error = "Please enter a comment"
                 return@setOnClickListener
             }
+            processor.addData(item.text.toString(), comment.text.toString(), quantity.selectedItem.toString().toInt(), catagory.selectedItemPosition)
+
             item.text.clear()
             comment.text.clear()
+            quantity.setSelection(0)
+            catagory.setSelection(0)
+
+            if (processor.getCount() >=2) {
+            }
         }
     }
 
