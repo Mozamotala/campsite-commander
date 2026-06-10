@@ -43,27 +43,29 @@ This app  allows the user to type the item,select a catogory , select the ammoun
 ## App Screens
 
 ### Screen 1 — Splash Screen
-
-
+app Photots/main page .png
+the is the main page or splash screen it displays the logo app Name and my name and  student num
 ---
 
 ### Screen 2 — Main Screen
-[DESCRIBE WHAT THE USER INPUTS AND HOW THE SCREEN WORKS]
-
+app Photots/inputpage.png
+this is the input page it displays all the user input fields and has a clear button a add button and a next page button
 ---
 
 ### Screen 3 — Detailed View Screen
-[DESCRIBE WHAT DATA IS DISPLAYED AND ANY CALCULATIONS SHOWN]
+app Photots/details page .png
+this is the details page it  displays all the details of  the user inputed data adn well as a message 
 
 ---
 
 ## Design Considerations
 
 ### UI & Aesthetics:
-[DESCRIBE YOUR COLOUR SCHEME, FONTS, AND OVERALL DESIGN CHOICES]
+according to the question paper it asked to use a dark theme with natural colours.i have utelised a black backround.the coulores of  the buttons were also based on nature bule-water yellow-flowers red-fire green -nature 
 
 ### User Experience:
-[EXPLAIN HOW YOU MADE THE APP EASY AND INTUITIVE TO USE]
+i have made the app easy to use by including hits to guid the user to input the proper items in the appropriate fileds.
+
 
 ---
 
@@ -80,7 +82,7 @@ The workflow was configured using:
 
 1. Clone the repository:
    ```
-   git clone [INSERT REPO LINK HERE]
+   git clone [https://github.com/EMGPSD/ima5112-2026-g1-practicum-ST10515004]
    ```
 2. Open the project in **Android Studio**
 3. Wait for Gradle to sync
@@ -90,16 +92,16 @@ The workflow was configured using:
 
 ## Challenges Faced
 
-[WRITE ABOUT 1–2 THINGS YOU FOUND DIFFICULT AND HOW YOU SOLVED THEM]
+the main challage i faced was when i  was  trying to get the spinner text to become white.The text of  the spinner needed to be white due to the black?"Dark Mode" backround
 
 ---
 
 ## Future Enhancements
 
 If more time were available, the following features could be added:
-- [ENHANCEMENT 1]
-- [ENHANCEMENT 2]
-- [ENHANCEMENT 3]
+- adding more catagories 
+-  adding more detaild text at the end 
+- adding a table to the details page to make it look nicer 
 
 ---
 
@@ -135,17 +137,29 @@ This project was developed with the assistance of AI tools in accordance with th
 **Proof of Responsible AI Use:**
 The following Claude conversation link shows all interactions between the student and Claude during this assessment. **This link is publicly accessible — you do not need a Claude or Anthropic account to view it.** Simply click the link and every question and response will be visible in full. This serves as transparent proof that AI was used responsibly and in accordance with IIE AI guidelines:
 
-[INSERT CLAUDE CHAT LINK HERE]
+https://claude.ai/share/c4fe76b1-7736-4035-a8e4-b7bbbe64456c
 
 ---
 
 ## References
 
-Anthropic. 2026. *Claude (claude-sonnet-4-6)*. [Large language model]. Available at: [INSERT CHAT LINK HERE] [Accessed: INSERT DATE HERE].
+Anthropic. 2026. *Claude (claude-sonnet-4-6)*. [Large language model]. Available at: [https://claude.ai/share/c4fe76b1-7736-4035-a8e4-b7bbbe64456c [Accessed:10 june 2026].
 
-The Independent Institute of Education (IIE). 2026. *Harvard-Anglia style reference guide — adapted for The IIE*. [pdf] The Independent Institute of Education. Available at: https://www.iie.ac.za/iie-policy-bank [Accessed: INSERT DATE HERE].
+The Independent Institute of Education (IIE). 2026. *Harvard-Anglia style reference guide — adapted for The IIE*. [pdf] The Independent Institute of Education. Available at: https://www.iie.ac.za/iie-policy-bank [Accessed:10 june 2026].
 
-The Independent Institute of Education (IIE). 2026. *Guidelines for responsible AI use at The IIE (PDIIE023)*. [pdf] The Independent Institute of Education. Available at: https://www.iie.ac.za/iie-policy-bank [Accessed: INSERT DATE HERE].
+The Independent Institute of Education (IIE). 2026. *Guidelines for responsible AI use at The IIE (PDIIE023)*. [pdf] The Independent Institute of Education. Available at: https://www.iie.ac.za/iie-policy-bank [Accessed:10 june 2026].
+
+Garanganga, K. 2026. FlashcardApp. [Unpublished Android application]. Introduction to Mobile Application Development (IMAD5112). The Independent Institute of Education, Emeris Sandton.
+
+Garanganga, K. 2026. GameTester. [Unpublished Android application]. Introduction to Mobile Application Development (IMAD5112). The Independent Institute of Education, Emeris Sandton.
+
+Garanganga, K. 2026. Generation. [Unpublished Android application]. Introduction to Mobile Application Development (IMAD5112). The Independent Institute of Education, Emeris Sandton.
+
+Garanganga, K. 2026. TimesTable. [Unpublished Android application]. Introduction to Mobile Application Development (IMAD5112). The Independent Institute of Education, Emeris Sandton.
+
+Google. 2026. Gemini. [Large language model]. Available at: [https://gemini.google.com/app/9cc96894eabd1759] [Accessed: 10 June 2026].
+
+The Independent Institute of Education (IIE). 2026. Introduction to Mobile Application Development (IMAD5112). [Module Manual]. Sandton: The Independent Institute of Education.
 
 ---
 
