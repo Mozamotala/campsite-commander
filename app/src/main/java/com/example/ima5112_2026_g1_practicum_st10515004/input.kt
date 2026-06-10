@@ -35,13 +35,13 @@ class input : AppCompatActivity() {
         var Nextpage = findViewById<Button>(R.id.Nextpage)
         var clear = findViewById<Button>(R.id.clear)
 
-        var quantitys = arrayOf("1", "2", "3", "4", "5")
+        var quantitys = arrayOf("1", "2", "3", "4", "5") //this is for  the quantity spinner and the values that rest inside it
         // Using custom layout spinner_item for white text
         quantity.adapter = ArrayAdapter(this, R.layout.spinner_item, quantitys).apply {
             setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         }
 
-        var catagories = arrayOf("food", "water", "shelter","first aid","toiletries","clothing")
+        var catagories = arrayOf("food", "water", "shelter","first aid","toiletries","clothing") //this is for  the catagory spinner and the values that rest inside it
         // Using custom layout spinner_item for white text
         catagory.adapter = ArrayAdapter(this, R.layout.spinner_item, catagories).apply {
             setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
@@ -58,7 +58,7 @@ class input : AppCompatActivity() {
             }
 
 
-            processor.addData(
+            processor.addData( // this is a function that pulls my arrays and calulations from my data.kt file and adds it to the array
                 item.text.toString(),
                 comment.text.toString(),
                 quantity.selectedItem.toString().toInt(),
@@ -70,7 +70,7 @@ class input : AppCompatActivity() {
             quantity.setSelection(0)
             catagory.setSelection(0)
 
-            if (processor.getCount() == 10) {
+            if (processor.getCount() == 10) { // this is to inform the user that they have reached the maximum number of items
                 android.widget.Toast.makeText(
                     this,
                     "You have reached the maximum number of items",
@@ -94,7 +94,7 @@ class input : AppCompatActivity() {
             }
 
         }
-        clear.setOnClickListener {
+        clear.setOnClickListener {// this is to clear the text fields and spinners
             item.text.clear()
             comment.text.clear()
             quantity.setSelection(0)

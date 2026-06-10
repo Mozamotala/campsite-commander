@@ -35,7 +35,7 @@ class Detailspage : AppCompatActivity() {
         }
 
 
-        answers.text = input.processor.getData() + "\n" +
+        answers.text = input.processor.getData() + "\n" + //this grabs data from the input page and adds it to the details page
                 "Total Quantity: " + input.processor.getTotal()
         if (input.processor.getCount() <= 2) {
             answers.text = answers.text.toString() + "\n" +

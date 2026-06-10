@@ -22,18 +22,18 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        val startButton = findViewById<Button>(R.id.Start)
-        val exitButton = findViewById<Button>(R.id.Exit)
+        val startButton = findViewById<Button>(R.id.Start) //this is the start button it will take you to the next screen
+        val exitButton = findViewById<Button>(R.id.Exit) //this is the exit button it will exit the app
 
 
-        startButton.setOnClickListener {
+        startButton.setOnClickListener {//this is the start button it will take you to the next screen and wait for 3 seconds before transitioning to the next screen
             // Adding a 3-second delay (3000ms) before transitioning to the next screen
             Handler(Looper.getMainLooper()).postDelayed({
                 val intent = Intent(this, input::class.java)
                 startActivity(intent)
             }, 3000)
         }
-        exitButton.setOnClickListener {
+        exitButton.setOnClickListener {//this is the exit button it will exit the app
             moveTaskToBack(true)
             finish()
         }
