@@ -1,4 +1,4 @@
-# [Campsite Commander] 📱
+# Campsite Commander 📱
 
 - **Developer**: Mohamed Zaeem Motala
 - **Student Number**: ST10515004
@@ -10,30 +10,30 @@
 
 ## Links
 
-- **GitHub Repository**: [https://github.com/EMGPSD/ima5112-2026-g1-practicum-ST10515004]
+- **GitHub Repository**: https://github.com/EMGPSD/ima5112-2026-g1-practicum-ST10515004
 
 
 ---
 
 ## Project Overview
 
-[campsite commander ] is a mobile application developed as part of the IMAD5112 Practicum assessment at The Independent Institute of Education (IIE). This application was built using **Kotlin** in **Android Studio**.
+Campsite Commander is a mobile application developed as part of the IMAD5112 Practicum assessment at The Independent Institute of Education (IIE). This application was built using **Kotlin** in **Android Studio**.
 
-This app was built as a inventory app. this app collects the users inputed data and recored it .
-This app  allows the user to type the item,select a catogory , select the ammount of  the item and add a discription of the item 
+This app was built as an inventory app. It collects the user's input and records it.
+The user can type an item, select a category, select the amount of the item and add a description of it.
 
 ---
 
 ## Purpose and Features
 
 ### Purpose:
-This app was built as a inventory app. this app collects the users inputed data and recored it .
-This app  allows the user to type the item,select a catogory , select the ammount of  the item and add a discription of the item 
+This app was built as an inventory app. It collects the user's input and records it.
+The user can type an item, select a category, select the amount of the item and add a description of it.
 
 ### Key Features:
-- it allows the user to input data using spinners and edit text fields 
-- onece all data has been entered weather that be a entry of  1 or 10 it will store it all allow you to procede to the next page 
-- once all data has been enterd it  will provide a detailed screen that will show all data enterd ,a total counter and a advice message 
+- Lets the user input data using spinners and EditText fields 
+- Once the data has been entered, whether that's 1 entry or 10, it stores it all and lets you proceed to the next page
+- Once all data has been entered, it shows a details screen with all the entered data, a total counter and an advice message
 - Input validation and error handling
 - Navigation between screens using Intents
 - Data stored and managed using parallel arrays
@@ -45,31 +45,33 @@ This app  allows the user to type the item,select a catogory , select the ammoun
 ### Screen 1 — Splash Screen
 <img width="431" height="792" alt="main page " src="https://github.com/user-attachments/assets/a77e0dff-0a4b-41c4-89d5-f2c2c53400f8" />
 
-the is the main page or splash screen it displays the logo app Name and my name and  student num
-this page contains an exit button as well as a next page button
+This is the main page (splash screen). It displays the logo, the app name, and my name and student number.
+This page contains an exit button as well as a next page button.
+
 ---
 
 ### Screen 2 — Main Screen
 <img width="480" height="795" alt="inputpage" src="https://github.com/user-attachments/assets/caf4dde9-c383-4c1d-9b76-91b802afb29b" />
 
-this is the input page it displays all the user input fields and has a clear button a add button and a next page button
+This is the input page. It displays all the user input fields and has a clear button, an add button and a next page button.
+
 ---
 
 ### Screen 3 — Detailed View Screen
 <img width="507" height="672" alt="details page " src="https://github.com/user-attachments/assets/b85d7c7e-6fba-459d-853a-16ee36972e13" />
 
-this is the details page it  displays all the details of  the user inputed data adn well as a message 
-this screen also contailns an exit  button as well as a back to main screen button 
+This is the details page. It displays all the details of the user's input data, as well as a message.
+This screen also contains an exit button as well as a back to main screen button.
 
 ---
 
 ## Design Considerations
 
 ### UI & Aesthetics:
-according to the question paper it asked to use a dark theme with natural colours.i have utelised a black backround.the coulores of  the buttons were also based on nature bule-water yellow-flowers red-fire green -nature 
+The question paper asked for a dark theme with natural colours. I used a black background, and the button colours are also based on nature: blue for water, yellow for flowers, red for fire and green for nature.
 
 ### User Experience:
-i have made the app easy to use by including hits to guid the user to input the proper items in the appropriate fileds.
+I made the app easy to use by including hints that guide the user to input the right items in the appropriate fields.
 
 
 ---
@@ -87,7 +89,7 @@ The workflow was configured using:
 
 1. Clone the repository:
    ```
-   git clone [https://github.com/EMGPSD/ima5112-2026-g1-practicum-ST10515004]
+   git clone https://github.com/Mozamotala/campsite-commander.git
    ```
 2. Open the project in **Android Studio**
 3. Wait for Gradle to sync
@@ -97,7 +99,7 @@ The workflow was configured using:
 
 ## Challenges Faced
 
-due to constistant practice the only real challage i faced was when i  was  trying to get the spinner text to become white.The text of  the spinner needed to be white due to the black?"Dark Mode" backround
+Due to consistent practice, the only real challenge I faced was getting the spinner text to turn white. The spinner text needed to be white because of the black "dark mode" background.
 
 
 ---
@@ -105,9 +107,9 @@ due to constistant practice the only real challage i faced was when i  was  tryi
 ## Future Enhancements
 
 If more time were available, the following features could be added:
-- adding more catagories 
--  adding more detaild text at the end 
-- adding a table to the details page to make it look nicer 
+- Adding more categories 
+- Adding more detailed text at the end
+- Adding a table to the details page to make it look nicer 
 
 ---
 
@@ -149,11 +151,11 @@ https://claude.ai/share/c4fe76b1-7736-4035-a8e4-b7bbbe64456c
 
 ## References
 
-Anthropic. 2026. *Claude (claude-sonnet-4-6)*. [Large language model]. Available at: [https://claude.ai/share/c4fe76b1-7736-4035-a8e4-b7bbbe64456c [Accessed:10 june 2026].
+Anthropic. 2026. *Claude (claude-sonnet-4-6)*. [Large language model]. Available at: https://claude.ai/share/c4fe76b1-7736-4035-a8e4-b7bbbe64456c [Accessed: 10 June 2026].
 
-The Independent Institute of Education (IIE). 2026. *Harvard-Anglia style reference guide — adapted for The IIE*. [pdf] The Independent Institute of Education. Available at: https://www.iie.ac.za/iie-policy-bank [Accessed:10 june 2026].
+The Independent Institute of Education (IIE). 2026. *Harvard-Anglia style reference guide — adapted for The IIE*. [pdf] The Independent Institute of Education. Available at: https://www.iie.ac.za/iie-policy-bank [Accessed: 10 June 2026].
 
-The Independent Institute of Education (IIE). 2026. *Guidelines for responsible AI use at The IIE (PDIIE023)*. [pdf] The Independent Institute of Education. Available at: https://www.iie.ac.za/iie-policy-bank [Accessed:10 june 2026].
+The Independent Institute of Education (IIE). 2026. *Guidelines for responsible AI use at The IIE (PDIIE023)*. [pdf] The Independent Institute of Education. Available at: https://www.iie.ac.za/iie-policy-bank [Accessed: 10 June 2026].
 
 Garanganga, K. 2026. FlashcardApp. [Unpublished Android application]. Introduction to Mobile Application Development (IMAD5112). The Independent Institute of Education, Emeris Sandton.
 
